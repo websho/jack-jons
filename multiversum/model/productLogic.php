@@ -217,7 +217,7 @@ class productLogic {
 
             $naam = $v["naam"];
             $image = $v["foto"];
-            $prijs = $v["oude_prijs"];
+            $prijs = $v["prijs"];
             $id = $v["id"];
             $html .= "<img class='card-img-top' src='$image' alt='Card image cap'>";
 
@@ -265,7 +265,7 @@ class productLogic {
 
             $naam = $v["naam"];
             $image = $v["foto"];
-            $prijs = $v["oude_prijs"];
+            $prijs = $v["prijs"];
             $id = $v["id"];
 
                 $html .= "<img class='card-img-top' src='$image' alt='Card image cap'>";
