@@ -169,7 +169,7 @@ class productController{
         if (isset($_POST["name"])){
             $name = $_POST['name'];
             $product = $this->productLogic->DisplaySearchProduct($name);
-
+            include 'view/product.php';
         }else{
             echo "Error: zoek Probleem.";
             include "view/product.php";
